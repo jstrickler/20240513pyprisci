@@ -16,3 +16,53 @@ print()
 data = ['\U0001F95A', '\U0001F414']  # answers the age-old question (at least for Python)
 print("unsorted:", data)
 print("sorted:", sorted(data))
+
+person = "Taylor Swift"
+x = ", billionaire"
+y = person + x
+print(y)
+
+print("Swift" in person)
+print("Slow" in person)
+
+print(len(person))
+
+print(person.upper())
+print(person.count('r'))
+print(person.count('Swift'))
+print(person.count('T'))
+print(person.lower().count('t'))
+print(person.replace('Swift', 'Slow'))
+print(person.replace(' Swift', ''))
+
+print(person.find('lor'))
+print(person.find('Tay'))
+print(person.find('wombat'))
+
+record = "John:Smith:Delaware"
+
+fields = record.split(':')
+print(fields)
+
+file_name = "wombats.txt"
+print(file_name.startswith('wombat'))
+print(file_name.endswith('.txt'))
+
+file_base = file_name.removesuffix('.txt')
+print(file_base)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

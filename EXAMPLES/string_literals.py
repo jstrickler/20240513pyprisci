@@ -8,3 +8,14 @@ print()
 print('Guido is the ex-"BDFL" of Python')
 print()
 print("""Guido's the ex-"BDFL" of Python""")
+print('''Guido's the ex-"BDFL" of Python''')
+
+query = """
+select first_name, last_name, zip_code
+from customers
+where state = "IA"
+order by zip_code
+"""
+
+s5 = r"spam\n"
+print(s5)
