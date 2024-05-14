@@ -10,3 +10,4 @@ print("It is {}\u00B0 in {}".format(temp, city))  # variables inserted into stri
 print("count is {:03d} avg is {:.2f}".format(count, avg))
 
 print("2 + 2 is {}".format(2 + 2))  # any expression is OK
+
