@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_excel(
+    #  'where/ever/your/workbook/lives/spam.xlsx',
     'https://qrc.depaul.edu/Excel_Files/Presidents.xlsx',
     index_col="No",  # use term as row index
     sheet_name='Master',  # name of worksheet
@@ -21,4 +22,4 @@ print(party_counts)
 plt.figure(figsize=(20.0,8.0))  # set figure size
 party_counts.plot(kind='barh')  # plot a horizontal bar graph
 plt.savefig("parties.png")    # save graph to file
-# plt.show()  # uncomment to display graph
+plt.show()  # uncomment to display graph

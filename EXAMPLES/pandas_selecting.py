@@ -36,3 +36,7 @@ print(df['b':'b'], '\n')  # select row 'b' only using slice of row labels (retur
 print_header("df[['alpha','epsilon','beta']]['b':'e']")
 print(df[['alpha', 'epsilon', 'beta']]['b':'e'])  # select columns AND slice rows
 print()
+
+#  DF[name]      column
+#  DF[iterable]  columns
+#  DF[slice]     rows

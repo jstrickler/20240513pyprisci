@@ -1,4 +1,6 @@
-from geometry import circle_area, rectangle_area, square_area
+#  import MOD
+#  from MOD import NAME ...
+from EXAMPLES.my_package.mathstuff.geometry import circle_area, rectangle_area, square_area
 
 a1 = circle_area(8)
 a2 = rectangle_area(10, 12)

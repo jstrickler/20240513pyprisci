@@ -30,7 +30,7 @@ print()
 def square_root(n):
     return n ** .5
 
-df['alpha'] = square_root(df['alpha'])
+df['alpha_root'] = square_root(df['alpha'])
 print_header("Apply square_root() to column alpha")
 print(df, '\n')
 

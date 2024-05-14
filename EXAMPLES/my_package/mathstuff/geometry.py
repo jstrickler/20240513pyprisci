@@ -6,6 +6,8 @@ Syntax:
 area = circle_area(diameter)
 area = rectangle_area(length, width)
 area = square_area(side)
+
+anything you want....
 """
 import math   # load math.py
 
@@ -40,7 +42,7 @@ def square_area(side):
     """
     return side ** 2
 
-if __name__ == "__main__":
+if __name__ == "__main__":    #  if runnning this file as script
     area1 = square_area(15)
     print(f"area1: {area1}")
     

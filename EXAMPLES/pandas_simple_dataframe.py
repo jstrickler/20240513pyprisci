@@ -26,4 +26,6 @@ df = pd.DataFrame(values, index=rows, columns=columns)  # create dataframe with 
 print_header('DataFrame df')
 print(df, '\n')
 
+# query =  "select customer_id as custID from ..."
+# df = pd.read_sql(sql_engine, query, ...,  index_col="custID")
 
